@@ -1,4 +1,5 @@
 #include<iostream>
+#include<climits>
 using namespace std;
 
 void find_numbers(int arr[],int n,int largest,int smallest)
@@ -21,9 +22,19 @@ void find_numbers(int arr[],int n,int largest,int smallest)
 }
 
 int main(){
-	int n = 10;
-	int arr[n] = {12,13,21,44,79,560,34,11,50,90};
+	int n;
+	cout<<"How many elements you want to enter in an array:";
+	cin>>n;
+	int arr[n];
+	cout<<"Enter elements in array:";
+	for(int i=0;i<n;i++)
+	{
+		cin>>arr[i];
+	}		
 	int largest = INT_MIN;
 	int smallest = INT_MAX;
 	find_numbers(arr,n,largest,smallest);
+
+
+	return 0;
 }
