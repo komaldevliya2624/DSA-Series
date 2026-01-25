@@ -8,5 +8,7 @@ It is designed to help in understanding both basic and advanced concepts of arra
 - Find largest and smallest elements in an array
 - Find second largest and second smallest elements in an array
 - Reverse of an array
+- Left roration in an array by k places
+- Right roration in an array by k places
 
 
