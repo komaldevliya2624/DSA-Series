@@ -1,9 +1,9 @@
-**📦 Arrays in DSA**
+📦ARRAYS IN DSA
 
 This folder contains important Array problems and their solutions for Data Structures and Algorithms (DSA) practice.
 It is designed to help in understanding both basic and advanced concepts of arrays.
 
-**📌 Topics Covered**
+📌TOPICS COVERED
 
 - Find largest and smallest elements in an array
 - Find second largest and second smallest elements in an array
@@ -12,5 +12,7 @@ It is designed to help in understanding both basic and advanced concepts of arra
      - Using temporary array method
 - Right rotation in an array by k places
      - Using three-reverse method
+- Check if an array is sorted in ascending order, descending order or not sorted
+- Remove duplicate elements from sorted array
 
 
